@@ -1,9 +1,34 @@
-Components:
-Auth
-Cache
-Sync
-JMAP (IMAP later)
-Chat
-Calendar
+<div align="center">
+  <img src="https://cdn.iasoft.dev/okoala/logo.png" alt="OKoala Logo" width="190" style="border-radius: 1.15rem;"/>
+  <br/>
 
-UI is web. Tauri maybe (desktop first, mobile if enough time)
+  <img src="https://img.shields.io/badge/Email-darkred.svg" alt=""/>
+  <img src="https://img.shields.io/badge/Chat-darkgreen.svg" alt=""/>
+  <img src="https://img.shields.io/badge/Calendar-darkblue.svg" alt=""/>
+
+  <p style="padding-top: 0.2rem;">
+    <b>OKoala: Open Source Collaboration Platform</b>
+  </p>
+</div>
+
+## Overview
+
+This repository hosts the OKoala client codebase.
+
+- Multiplatform (Web, Desktop & Mobile)
+- Email Client (JMAP)
+- Chat Client
+- Calendar & Contacts
+
+## Repository Layout
+
+| Path | Contents |
+|---|---|
+| `src/` | Web Impl |
+| `src-tauri/` | Tauri Wrapper |
+
+## License
+
+Copyright © 2026 IASoft (PVT) LTD.
+
+Licensed under the [AGPL, version 3.0](https://www.gnu.org/licenses/agpl-3.0.en.html). See [COPYING](COPYING).
